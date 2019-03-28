@@ -1,0 +1,176 @@
+* {
+    font-family: 'Geneva';
+}
+
+
+.login:hover {
+	background: #cedfe8; /* #6B6F77; */
+	color: white;
+}
+
+
+.btn {
+	background: white;
+	color: #6B6F77;
+	border: 0px;
+	height: 4.5%;
+	transition: width 0.4s linear;
+	position: relative;
+	left: 75%;
+}
+
+.btn:before {
+	width: 0%;
+}
+
+.btn:after {
+	width: 100%;
+}
+	
+.btn-light {
+	border: 0px solid;
+	border-radius: 3px;
+	margin-bottom: 3px;
+}
+
+input {
+	text-align: center;
+}
+
+.input-group {
+	width: 40%;
+	left: 25%;
+	margin-bottom: : 15px;
+	position: absolute;
+	top: 10px;
+}
+
+h1 {
+	position: relative;
+	left: 5%;
+}
+			
+.navbar-nav {
+	width: 85%;
+}
+
+.btn-group-vertical {
+	width: 24vw;
+	border-radius: 30%;
+}
+
+.header {
+	background: #52abc4;  /* bd4ed;  2b3252;  2FC0C0; */
+	height: 105px;
+}
+
+.buttonSection {
+	background: #52abc4;	/* ef5455;  B72039; */
+	width: 20vw;
+	height: 90vh;
+}
+
+.sideButtons {
+	display: inline;
+	background: transparent;
+	outline: none;
+	border: none;
+	color: white;
+	width: 20vw;
+	height: 7.5vh;
+}
+
+.sideButtons:hover {
+	transition-duration: 0.5s;
+	background: #97e4ed;
+	color: #485684;	
+}
+
+/* this is the page used on homepage */
+.feed {
+	color: #485684;
+}
+
+a {
+	color: white;
+	width: 20vw;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #cc9f9f !important;
+}
+
+.articleArea {
+	display: block;
+	position: relative;
+	left: 20vw;
+	top: -90vh;
+	background: #eae5e6;
+	width: 80vw;
+	height: 90vh;
+	overflow-y: auto;
+}
+
+.clickable-card {
+	color: inherit;
+}
+
+.clickable-card:hover {
+
+}
+
+.card {
+				
+	left: 5%;
+	/*
+	height: 35%;
+	top: 10px;
+	*/
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+}
+
+/* controls how the image displays on the cards */
+.card-img {
+    width: 100%;
+    height: 100%; /* 31.3vh; */
+    object-fit: cover;
+}
+
+/* design of buttons within article cards */
+.voteCount {
+	width: 15%;
+	display: inline-block;
+}
+
+.card-footer {
+	height: 2.5rem;
+	display: inline;
+	position: relative;
+	bottom: 1rem;
+	left: -1.5rem;
+	background: transparent;
+	border: none;
+}
+
+.save {
+	transform: translate( 0%, 10% ); 
+	width: 15%;
+	background: transparent;
+	border: none;
+	font-size: 50px;
+}
+
+.save:hover {
+	color: #52abc4;
+}
+
+.view {
+	background: transparent;
+	border: none;
+}
+
+.view:hover {
+	color: #52abc4;
+}
